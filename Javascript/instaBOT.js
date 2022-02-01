@@ -38,6 +38,7 @@ require('dotenv').config()
     } 
 
     // Exibi os dados coletados no console
+    browser.close()
     showInformations(post_username, post_likes)
     
   } catch (err) {
